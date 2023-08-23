@@ -1,0 +1,47 @@
+@use 'sass:math';
+
+/**
+* Подключение шрифтов локально из папки "./src/fonts"
+*/
+@import 'config/fonts';
+
+/** Подключение переменных */
+@import 'config/vars';
+
+/**
+* Подключение sass function и mixins и extends стилей
+*/
+
+/** Обнуление */
+@import 'config/normalize';
+
+/**
+* Библиотеки
+* раскомментировать для использования
+*/
+// @import 'libs/aos';
+// @import 'libs/swiper';
+
+/**
+* Подключение custom scrollbar для всего сайта
+*/
+
+/**
+* Общие параметры, шаблоны(заготовки) и вспомогательные классы
+*/
+
+/**
+* БЕМ блоки используемые во всё проекте
+*/
+
+/**
+* Подключение стилей отдельных блоков и секций
+*/
+@import './components/header';
+
+@import './components/footer';
+
+h1 {
+  color: black;
+  font-size: 30px;
+}
